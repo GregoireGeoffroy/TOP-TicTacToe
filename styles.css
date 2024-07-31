@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+#gameboard div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid #333;
+    font-size: 2em;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#controls button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
